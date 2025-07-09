@@ -11,5 +11,10 @@ int main()
         throw("halo"); //meleparkan sebuah integer maka
         cout << "Pernyataan tidak akan dieksekusi" << endl;
     }
+    catch (const char* e)
+    {
+        // blok ini akan dieksekusi
+        cout << "Pengecualian akan dieksekusi: " << e << endl;
+    }
    
 }
