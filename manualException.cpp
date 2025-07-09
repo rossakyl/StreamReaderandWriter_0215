@@ -8,7 +8,8 @@ int main()
     try
     {
         cout << "Selamat Belajar di Prodi TI UMY" << endl;
-        
+        throw("halo"); //meleparkan sebuah integer maka
+       
     }
-    
+   
 }
